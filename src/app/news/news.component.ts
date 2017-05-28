@@ -9,14 +9,14 @@ import { NewsService } from './news.service';
 
 export class NewsComponent implements OnInit {
   // instantiate headlines to an empty array
-  headline: any = [];
+  headlines: any = [];
 
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
     // Retrieve posts from the API
-    this.newsService.getNews().subscribe(headline => {
-      this.headline = headline.articles;
+    this.newsService.getNews().subscribe(headlines => {
+      this.headlines = headlines.articles;
     });
   }
 }
