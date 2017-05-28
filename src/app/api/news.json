@@ -1,0 +1,87 @@
+{
+    status: "ok",
+    source: "the-next-web",
+    sortBy: "latest",
+    articles: [{
+            author: "Will Meier",
+            title: "5 types of rest every creative should adopt",
+            description: "There’s a pervasive idea out there that life and creativity are a zero-sum game. Indulge one, destroy the other. Or, as designer Stefan Sagmeister once wrote in a mural of coins across ...",
+            url: "https://thenextweb.com/contributors/2017/05/27/5-types-rest-every-creative-adopt/",
+            urlToImage: "https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/march-sleeping-bty.gif",
+            publishedAt: "2017-05-27T17:37:01Z"
+        },
+        {
+            author: "TNW Deals",
+            title: "Zoolz offers 1TB of cloud storage for life – for under $30",
+            description: "Stack up all the hard drives and flash sticks you want, but online storage space is still a premium commodity. Without some regular attention to storage room on your phone, tablet or ...",
+            url: "https://thenextweb.com/offers/2017/05/27/zoolz-offers-1tb-cloud-storage-life-30/",
+            urlToImage: "https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/CAiBLbG.jpg",
+            publishedAt: "2017-05-27T17:33:24Z"
+        },
+        {
+            author: "Matthew Hughes",
+            title: "British Airways cancels flights after major IT outage",
+            description: "There's travel chaos this bank holiday weekend, after British Airways canceled hundreds of flights as a result of a major IT systems outage. The issue, which the airline has described ...",
+            url: "https://thenextweb.com/insider/2017/05/27/british-airways-cancels-flights-major-outage/",
+            urlToImage: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/francois-van-688.jpg",
+            publishedAt: "2017-05-27T15:01:25Z"
+        },
+        {
+            author: "Tyler Leshney",
+            title: "How to transition a company from startup to scale-up",
+            description: "Guns and Roses was a constant presence in my yellow Sony Walkman, and later my Jeep Wrangler’s aftermarket CD player. The band’s leader, Axl Rose, was famous (or perhaps infamous) ...",
+            url: "https://thenextweb.com/contributors/2017/05/27/guns-n-roses-and-scaling-a-company/",
+            urlToImage: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/gnr-hero.jpg",
+            publishedAt: "2017-05-27T12:22:27Z"
+        },
+        {
+            author: "D. S. Bradford",
+            title: "Learning from the past and molding the future of technology: a conversation with John Sculley",
+            description: "The world of technology has given us so much in the way of improving quality of life. From practical application in the world of medicine to creating virtual playgrounds for recreation, ...",
+            url: "https://thenextweb.com/contributors/2017/05/27/learning-past-molding-future-technology-conversation-john-sculley/",
+            urlToImage: "https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/2016-PR-Photo-1-e1495856519853.jpg",
+            publishedAt: "2017-05-27T05:43:25Z"
+        },
+        {
+            author: "Rachel Kaser",
+            title: "Snap just bought a drone company",
+            description: "With the acquisition of a drone company, Snap Inc may be entering a new hardware market. The new acquisition is Crtl Me Robotics, a small drone retailer based in Venice, California. According ...",
+            url: "https://thenextweb.com/gadgets/2017/05/27/snap-just-bought-drone-company/",
+            urlToImage: "https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Snap-drone.jpg",
+            publishedAt: "2017-05-27T02:08:21Z"
+        },
+        {
+            author: "Rachel Kaser",
+            title: "Chipotle reports hackers stole credit card info using malware",
+            description: "If you've eaten at a Chipotle in the last few months, your credit card info could have been stolen. The restaurant chain posted a warning on its site today, telling customers to be ...",
+            url: "https://thenextweb.com/security/2017/05/27/chipotle-reports-hackers-stole-credit-card-info-using-malware/",
+            urlToImage: "https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/shutterstock_322954637_Chipotle.jpg",
+            publishedAt: "2017-05-27T01:29:20Z"
+        },
+        {
+            author: "Yoav Vilner",
+            title: "Marketing automation is still in high demand, and it’s not going to change",
+            description: "Marketing automation. marketing automation. Have you heard that recently? Imagine, for a moment, that you're the CMO of a major Fortune 500 company. Every day, you're running ...",
+            url: "https://thenextweb.com/contributors/2017/05/27/marketing-automation-still-high-demand-not-going-change/",
+            urlToImage: "https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/shutterstock_207071149.jpg",
+            publishedAt: "2017-05-27T00:37:46Z"
+        },
+        {
+            author: "Napier Lopez",
+            title: "Huawei’s prettier Watch 2 Classic is now on sale for $370",
+            description: "The Huawei Watch was one of the most attractive Android Wear watches last generation, so when Huawei unveiled the Watch 2, some users were disappointed Huawei had opted to transition ...",
+            url: "https://thenextweb.com/gadgets/2017/05/27/huaweis-prettier-watch-2-classic-now-sale-370/",
+            urlToImage: "https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/Huawei-Watch-2-Classic.png",
+            publishedAt: "2017-05-27T00:28:25Z"
+        },
+        {
+            author: "Rachel Kaser",
+            title: "With Uber and Lyft coming back, RideAustin might be in trouble",
+            description: "When The Next Web writers were in Austin for South By Southwest, we were pretty impressed with RideAustin. And now the municipal ridesharing app we called "
+            the future of ride sharing " ...",
+            url: "https://thenextweb.com/insider/2017/05/26/uber-lyft-coming-back-rideaustin-might-trouble/",
+            urlToImage: "https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/woman-driving-car.jpg",
+            publishedAt: "2017-05-26T23:39:44Z"
+        }
+    ]
+}
