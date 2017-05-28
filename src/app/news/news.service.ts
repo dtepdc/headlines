@@ -14,3 +14,6 @@ export class NewsService {
   }
   
 }
+
+// https://newsapi.org/v1/articles?source=the-next-web&apiKey=5db44d48109b427aaf891efcd542b908
+// https://jsonplaceholder.typicode.com/posts

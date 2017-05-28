@@ -1,3 +1,5 @@
-<div>
-    <button (click)="loadNews()">Load profile</button> {{ headlines | json }}
+<div class="row" *ngFor="let test of headline">
+    <div class="card card-block">
+        <h5 class="card-title">Title: {{ test.title }}</h5>
+    </div>
 </div>

@@ -7,11 +7,16 @@ import { NewsService } from './news.service';
   styleUrls: ['./news.component.css']
 })
 
-export class NewsComponent {
-  constructor(private newsService: NewsService) {}
-  headlines = {};
+export class NewsComponent implements OnInit {
+  // instantiate headlines to an empty array
+  headline: any = [];
 
-  loadNews() {
-    this.newsService.getNews().subscribe(data => this.headlines = data);
+  constructor(private newsService: NewsService) { }
+
+  ngOnInit() {
+    // Retrieve posts from the API
+    this.newsService.getNews().subscribe(headline => {
+      this.headline = headline.articles;
+    });
   }
 }
