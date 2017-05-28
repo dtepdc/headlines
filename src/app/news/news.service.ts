@@ -12,5 +12,5 @@ export class NewsService {
     return this.http.get(`https://newsapi.org/v1/articles?source=the-next-web&apiKey=5db44d48109b427aaf891efcd542b908`)
     .map((res:Response) => res.json());
   }
-
+  
 }
