@@ -12,11 +12,13 @@ export class NewsComponent implements OnInit {
   headlines: any = [];
 
   constructor(private newsService: NewsService) { }
-
+  
+  performSearch(searchTerm: HTMLInputElement): void { console.log(`User entered: ${searchTerm.value}`); }
+  
   ngOnInit() {
     // Retrieve posts from the API
     this.newsService.getNews().subscribe(headlines => {
-      this.headlines = headlines.articles;
+      this.headlines = headlines;
     });
   }
 }

@@ -1,5 +1,12 @@
-<div class="row" *ngFor="let headline of headlines">
-    <div class="card card-block">
-        <h5 class="card-title">Title: {{ headline.title }}</h5>
+<div class="container container-fluid">
+    <input name="title" #searchTerm> <button (click)="performSearch(searchTerm)">Search</button>
+    <div class="source">Associated Press</div>
+    <div class="row">
+        <div class="col-md-3" *ngFor="let headline of headlines.articles | slice:0:4">
+            <img class="img-responsive img-thumbnail" [src]="headline.urlToImage" [alt]="headline.description" />
+            <h6><a [href]="headline.url">{{ headline.title }}</a></h6>
+            <!--<p class="hidden-xs hidden-sm hidden-md">{{ headline.publishedAt | date }} | {{ headline.description }}</p>-->
+            <hr />
+        </div>
     </div>
 </div>

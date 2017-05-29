@@ -9,7 +9,7 @@ export class NewsService {
   ) {}
 
   getNews() {
-    return this.http.get(`https://newsapi.org/v1/articles?source=the-next-web&apiKey=5db44d48109b427aaf891efcd542b908`)
+    return this.http.get(`https://newsapi.org/v1/articles?source=associated-press&apiKey=5db44d48109b427aaf891efcd542b908`)
     .map((res:Response) => res.json());
   }
   

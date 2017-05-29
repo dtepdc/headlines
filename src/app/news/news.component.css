@@ -1,0 +1,39 @@
+h6 {
+    margin-bottom: 3px;
+}
+
+a {
+    color: #1955a5;
+    font-family: "Arial";
+}
+
+a:visited {
+    color: #666
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: "Georgia", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.3rem;
+    margin-bottom: 0;
+}
+
+hr {
+    display: none;
+}
+
+.source {
+    font-size: 14px;
+    margin-left: 3px;
+    color: darkred;
+}
+
+@media (max-width: 800px) {
+    hr {
+        display: block;
+        width: 90%;
+    }
+}
