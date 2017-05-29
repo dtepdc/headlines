@@ -1,9 +1,34 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <a class="navbar-brand" href="http://www.dawntepper.com">Your Headlines</a>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Current</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Breaking</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" name="title" #searchTerm placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" (click)="performSearch(searchTerm)">Search News</button>
+
+        </form>
+    </div>
+</nav>
+
 <div class="container container-fluid">
-    <input name="title" #searchTerm> <button (click)="performSearch(searchTerm)">Search</button>
-    <div class="source">Associated Press</div>
+    <div class="source">Associated Press {{ source }}</div>
     <div class="row">
         <div class="col-md-3" *ngFor="let headline of headlines.articles | slice:0:4">
-            <img class="img-responsive img-thumbnail" [src]="headline.urlToImage" [alt]="headline.description" />
+            <img class="img-responsive img-thumbnail" [src]="headline.urlToImage" [alt]="headline.title" />
             <h6><a [href]="headline.url">{{ headline.title }}</a></h6>
             <!--<p class="hidden-xs hidden-sm hidden-md">{{ headline.publishedAt | date }} | {{ headline.description }}</p>-->
             <hr />
